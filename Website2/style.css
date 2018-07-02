@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(pic.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo {
+	margin: 10px 30px;
+	height: 70px;
+	
+}
+
+.nav {
+	background: rgba(0,0,0,0.5);
+	height: 80px;
+}
+#top{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+#top li{
+	display: inline-block;
+	margin: 5px 2px;
+}
+
+#top li a{
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: sans-serif;
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+#top li a:hover{
+	background:white;
+	color: black;
+	transition: .4s;
+	padding: 5px;
+	/*border-radius: 8px;*/
+}
+
+.welcome {
+	font-family: sans-serif;
+	position: relative;
+	color: white;
+	text-align: center;
+	top: 30%;
+}
+.welcome h1{
+	font-size: 42px
+}
+.bt {
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 7px;
+	position: relative;
+	top: 30px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.bt1 {
+	background: white;
+	color: black;
+	border-radius: 5px;
+
+}
+.bt2{
+	color: white;
+}
+.bt2:hover {
+	background: orange;
+	color: black;
+	/*border: 1px solid orange;*/
+	transition: 0.4s;
+}
+.bt1:hover {
+	background: orange;
+	color: black;
+	transition: 0.4s;
+}
+.welcome h1{
+	text-shadow: 2px 2px 2px #000;
+}
